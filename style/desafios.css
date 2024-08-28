@@ -66,7 +66,6 @@ margin: 7rem auto 2rem auto;
 
 .challenge h2 {
 font-family: Calistoga;
-/* font-size: 32px; */
 font-size: 1.8rem;
 font-weight: lighter;
 margin-bottom: 1rem;
@@ -94,15 +93,6 @@ margin-bottom: 1rem;
     align-items: center;
     margin: 1rem 0.5rem 1rem 3rem;
     width: 65%;
-    text-align: justify;
+    text-align: justisfy;
 }
-
-.content.two {
-    padding-left: 2rem;
-
-}
-
-.content.one, .content.three{
-    padding-right: 2rem;
-
-}
+ 
