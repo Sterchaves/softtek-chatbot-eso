@@ -33,13 +33,51 @@ main {
   
   #container-steps {
     display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 6rem auto 4rem auto;
+    width: 70%;
+  }
+
+  #container-steps #content{
+    width: 80%;
+    margin-left: 4rem;
+  }
+  #container-steps #content h2{
+    font-family: Calistoga;
+    color: #E3E8FF;
+    font-size: 30px;
+    margin-bottom: 1.5rem;
+
+  }
+
+  #container-steps #content p{
+    font-family: Open Sans;
+    color: #E3E8FF;
+    text-align: justify;
+    margin-bottom: 2rem;
+
+
+  }
+
+
+  #container-steps #tools{
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 4rem;
+    z-index: 0;
+  }
+
+  #container-steps img{
+    width: 30%;
   }
   
-  
+  #container-steps #tools #css{
+    margin-left: 19rem;
+    z-index: 1;
+
+  }
   
 
   
@@ -49,6 +87,7 @@ main {
   font-size: 4rem;
   color: black;
   margin: 0 auto;
+  text-align: center;
   padding: 4.5rem 0 3rem 0;
 
 }
@@ -90,4 +129,8 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+#container-team .role{
+  font-weight: 600;
 }
