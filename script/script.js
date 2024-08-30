@@ -1,10 +1,9 @@
 // Funções de resposta para cada tema
 const responses = {
     'Reset de senhas': [
+                "Sim, é possível resetar senhas para sistemas internos e externos. Caso tenha dificuldades, entre em contato com o suporte técnico.",
         "Para resetar sua senha, acesse o portal de segurança.",
-        "Digite seu usuário e siga as instruções na tela.",
-        "Se não conseguir, entre em contato com o suporte técnico.",
-        "Você pode resetar senhas para sistemas internos e externos."
+        "Basta digitar seu usuário e seguir as instruções que aparecerão na tela.",
     ],
     'Desbloqueios': [
         "Para desbloquear seu acesso, acesse o portal de desbloqueios.",
