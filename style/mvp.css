@@ -2,15 +2,14 @@
 main{
     display: flex;
     justify-content: center;
-}
+ }
 
 
 .chatbox {
     display: flex;
     flex-direction: column;
     max-width: 600px;
-    max-height: 700px;
-    height: 100%;
+    max-height: 500px;
     justify-content: space-between;
     background-color: #E3E8FF; /* Azul bem claro */
     border-color: #0F2167; /* Azul mais escuro */

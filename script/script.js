@@ -1,10 +1,3 @@
-// POP-UP DE ENVIO DO FORMULÁRIO
-document.getElementById("contatoForm").addEventListener("submit", function(event){
-    event.preventDefault(); 
-    alert("Obrigada! A sua mensagem foi enviada com sucesso."); 
-    this.reset(); 
-});
-
 // Funções de resposta para cada tema
 const responses = {
     'Reset de senhas': [
@@ -72,3 +65,12 @@ function addMessage(text, sender) {
     chatContent.appendChild(messageDiv);
     chatContent.scrollTop = chatContent.scrollHeight;
 }
+
+
+
+// POP-UP DE ENVIO DO FORMULÁRIO - CONTATOS
+document.getElementById("contatoForm").addEventListener("submit", function(event){
+    event.preventDefault(); 
+    alert("Obrigada! A sua mensagem foi enviada com sucesso."); 
+    this.reset(); 
+});
